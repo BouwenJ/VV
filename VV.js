@@ -104,10 +104,12 @@ function bid(price) {
     }
 }
 
-//document.onload = startAuction();
-document.onload = showProduct();
-
 function showProduct() {
     alert("Show all Products");
     console.log("Show all Products");
 }
+
+//document.onload = startAuction();
+document.onload = showProduct();
+
+
