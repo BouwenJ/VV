@@ -104,4 +104,9 @@ function bid(price) {
     }
 }
 
-document.onload = startAuction();
+//document.onload = startAuction();
+document.onload = showProduct();
+
+function showProduct() {
+    alert("Show all Products");
+}
